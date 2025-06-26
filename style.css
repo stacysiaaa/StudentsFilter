@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+thead {
+    background-color: darkgrey;
+    color: black;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid beige;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+.border-blue {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
