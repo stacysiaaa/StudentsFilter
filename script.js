@@ -1,3 +1,22 @@
+let students=[
+    {name:"Анна", age:"20",group:"А"},
+    {name:"Петро", age:"21",group:"Б"},
+    {name:"Марія", age:"19",group:"А"},
+    {name:"Іван", age:"22",group:"В"},
+    {name:"Оля", age:"20",group:"Б"},
+
+]
+
+let tbody = document.querySelector("tbody");
+students.forEach(student => {
+    let row = document.createElement("tr");
+    row.innerHTML = `
+    <td>${student.name}</td>
+    <td>${student.age}</td>
+    <td>${student.group}</td>
+  `;
+    tbody.appendChild(row);
+});
 function changeBorder(element) {
     element.addEventListener("click", () => element.classList.add("border-blue"));
     element.addEventListener("blur", () => element.classList.remove("border-blue"));
