@@ -42,6 +42,6 @@ select {
 }
 
 .border-blue {
-    border: 1px solid darkblue;
+    border: 2px solid darkblue;
     border-radius: 5px;
 }
